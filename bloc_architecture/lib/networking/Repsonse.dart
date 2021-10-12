@@ -1,3 +1,4 @@
+//networking class
 class Response<T> {
   Status status;
   T data;
@@ -11,6 +12,7 @@ class Response<T> {
   String toString() {
     return "Status : $status \n Message : $message \n Data : $data";
   }
+  
 }
 
 enum Status { LOADING, COMPLETED, ERROR }
