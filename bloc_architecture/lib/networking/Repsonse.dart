@@ -3,7 +3,7 @@ class Response<T> {
   Status status;
   T data;
   String message;
-
+  //All response handling here
   Response.loading(this.message) : status = Status.LOADING;
   Response.completed(this.data) : status = Status.COMPLETED;
   Response.error(this.message) : status = Status.ERROR;
@@ -11,6 +11,8 @@ class Response<T> {
   @override
   String toString() {
     return "Status : $status \n Message : $message \n Data : $data";
+    
+  
   }
   
 }
