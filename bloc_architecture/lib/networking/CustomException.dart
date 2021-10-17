@@ -1,3 +1,4 @@
+//CustomException
 class CustomException implements Exception {
   final _message;
   final _prefix;
