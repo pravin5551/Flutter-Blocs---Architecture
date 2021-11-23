@@ -8,6 +8,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Chucky Norris',
-        home: GetChuckCategories()); // define it once at root level.
+        home: GetChuckCategories()); 
   }
 }
